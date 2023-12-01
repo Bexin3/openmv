@@ -38,13 +38,10 @@
 #define OMV_MDMA_CHANNEL_JPEG_OUT           (6) // out has a higher pri than in
 
 // OV5640 sensor settings
-#define OMV_OV5640_XCLK_FREQ                (12500000)
-#define OMV_OV5640_PLL_CTRL2                (0x7E)
+#define OMV_OV5640_XCLK_FREQ                (24000000)
+#define OMV_OV5640_PLL_CTRL2                (0x64)
 #define OMV_OV5640_PLL_CTRL3                (0x13)
 #define OMV_OV5640_REV_Y_CHECK              (0)
-#define OMV_OV5640_REV_Y_FREQ               (12500000)
-#define OMV_OV5640_REV_Y_CTRL2              (0x7E)
-#define OMV_OV5640_REV_Y_CTRL3              (0x13)
 
 // Enable additional GPIO banks.
 #define OMV_ENABLE_GPIO_BANK_F              (1)
