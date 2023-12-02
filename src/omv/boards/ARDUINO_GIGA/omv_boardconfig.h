@@ -12,7 +12,7 @@
 #define __OMV_BOARDCONFIG_H__
 
 // Architecture info
-#define OMV_ARCH_STR                        "GIGA H7 8192 SDRAM"    // 33 chars max
+#define OMV_ARCH_STR                        "GIGA H7 8192 SDRAM"  // 33 chars max
 #define OMV_BOARD_TYPE                      "H7"
 #define OMV_UNIQUE_ID_ADDR                  0x1FF1E800    // Unique ID address.
 #define OMV_UNIQUE_ID_SIZE                  3       // Unique ID size in words.
