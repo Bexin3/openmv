@@ -38,8 +38,8 @@
 #define OMV_MDMA_CHANNEL_JPEG_OUT           (6) // out has a higher pri than in
 
 // OV5640 sensor settings
-#define OMV_OV5640_XCLK_FREQ                (24000000)
-#define OMV_OV5640_PLL_CTRL2                (0x3E)
+#define OMV_OV5640_XCLK_FREQ                (12000000)
+#define OMV_OV5640_PLL_CTRL2                (0x8E)
 #define OMV_OV5640_PLL_CTRL3                (0x13)
 #define OMV_OV5640_REV_Y_CHECK              (0)
 
