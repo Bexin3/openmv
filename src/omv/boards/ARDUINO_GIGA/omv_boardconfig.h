@@ -39,7 +39,7 @@
 
 // OV5640 sensor settings
 #define OMV_OV5640_XCLK_FREQ                (12000000)
-#define OMV_OV5640_PLL_CTRL2                (0x94)
+#define OMV_OV5640_PLL_CTRL2                (0x90)
 #define OMV_OV5640_PLL_CTRL3                (0x13)
 #define OMV_OV5640_REV_Y_CHECK              (0)
 
